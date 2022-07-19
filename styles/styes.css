@@ -36,8 +36,7 @@ span h3 {
     color: #3A3A3A;
 }
 
-.navbar span a,
-.navbar span i {
+.navbar span a {
     padding-right: 24px;
 }
 
@@ -117,9 +116,10 @@ section .logos {
 
 
     border: 2px solid rgb(233, 232, 232);
-    margin-left: 165px;
-    margin-right: 165px;
-    border-radius: 5px;
+    border-left: none;
+    border-right: none;
+    margin-left: 9em;
+    margin-right: 9em;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 100px;
