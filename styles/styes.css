@@ -208,8 +208,8 @@ span .fa-star-half-stroke {
 }
 
 .grid-flex h2,
-h3,
-h4,
+.grid-flex h3,
+.grid-flex h4,
 .star {
     margin-left: 4%;
 }
@@ -261,6 +261,7 @@ section .seemore a {
 
 .featured .featured-photo {
     width: 50%;
+    margin-right: 20%;
 }
 
 .featured .featured-info {
@@ -269,13 +270,16 @@ section .seemore a {
 
 .featured-info h2 {
     color: #0A0826;
-    font-size: 38px;
+    font-size: 2em;
+    margin-top: 0;
+    margin-left: 20%;
 
 }
 
 .featured-info p {
     color: #6C6C6C;
-    font-size: 16px;
+    font-size: 1em;
+    margin-left: 20%;
 }
 
 .featured-info a {
@@ -283,7 +287,35 @@ section .seemore a {
     color: #FFFFFF;
     background-color: #E02C6D;
     padding: 10px 30px;
+    margin-left: 20%;
 
 }
 
 /* footer parts */
+
+footer .footer-bg {
+    width: 100%;
+    height: 30vh;
+    background-color: #0A0826;
+
+}
+
+footer h3,
+footer p {
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    margin-top: -1%;
+    font-size: 14px;
+
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+footer p i {
+    font-size: 20px;
+    color: white;
+}
